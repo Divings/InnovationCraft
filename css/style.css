@@ -1,0 +1,64 @@
+/* 画像へ移動する画像をホバーした */
+img.twitter_button:hover{
+	opacity:0.5;
+	cursor: pointer;
+}
+/* 画像へ移動する画像をクリックした瞬間 */
+img.twitter_button:active{
+	position: relative;
+	top: 3px;
+}
+body { 
+background: url(../img/Back.PNG);
+font-family: "MS Pゴシック",Meiryo; 
+  }
+.font2{font-size:2;
+color="#110000";
+}
+table{border="1";
+}
+
+button{
+    border-width:4; 
+    background: url(../img/Back.PNG);
+    border-color:#191970; 
+    color:#191970;
+    }
+    button{
+    border-width:4; 
+    background: url(./img/Back.PNG);
+    border-color:#191970; 
+    color:#191970;
+    }
+    input{
+    border-width:4; 
+    background: url(./img/Back.PNG);
+    border-color:#191970; 
+    color:#191970;
+    }
+    button :hover{}
+    span{font-size:0.9em; }
+    .font2{font-size:2;
+color="#110000";
+}
+summary {
+font-size:2;
+  display: block;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* 一部ブラウザで消えなかった場合は以下も追記 */
+summary::-webkit-details-marker {
+  display:none;
+}
+.link{
+color="#000000";
+}
+.timeline {
+  max-width: 40%;
+  border: 1px solid #333;
+  padding: 10px;
+}
