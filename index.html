@@ -1,54 +1,41 @@
 <!DOCTYPE html>
-
-<!-- ヘッダ部分-->
-
 <html lang="ja">
 <head>
-<link rel=preload>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="preload" href="img/favicon.ico" as="image">
-<link rel="shortcut icon" href="img/favicon.ico">
-<link rel="preload" href="https://static.fc2.com/fc2web/js/fc2_web_user_page.js?201705" as="script">
-<link rel="shortcut icon" href="img/favicon.ico">
-<meta name="description" content=””,”rinasvideo”>
-<meta charset="UTF-8">
-<meta name="author" content="古賀智也">
- <meta name="viewport" content="width=device-width,initial-scale=1">
-<title> TKOGA Software center</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TKOGA Software Center</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
-
-<!-- テキスト表示部分-->
-<div style="text-align:center">
-<body link="#110000"
-oncontextmenu="return false;"
-vlink="#770000" alink="#330000">
-<div>
-<p>Dec(ファイル暗号化/復号化ソフトウェア)</p>
-<hr></hr>
-<!--以下下書き-->
-<font size="2px">
-<p>This is the homepage of the software division of Tomoya Koga.</p></font>
-
-<br><center>
-<table border="1">
-<tr>
-<th>
-<img onclick="button()" class="twitter_button" width="150" height="80"
-ontouchstart="" src="img/button/portable.PNG" alt="Decをダウンロード">
-</th>
-</tr>
-</tr>
-</table></center>
-<br>
-<hr></hr>
-</div>
-<script src="script/script.js?20230914" charset="UTF-8">
-</script>
-<font size="2px" >
-<center>
-(C) Tomoya Koga.
+<body link="#110000" oncontextmenu="return false;" vlink="#770000" alink="#330000">
+    <center>
+    <header>
+        <h1>Welcome to TKOGA Software Center</h1>
+        <p>Software to encrypt/decrypt your important files</p>
+    </header>
+    <main>
+        <section>
+            <h2>Download Dec</h2>
+            <p>Choose your version:</p>
+            <div class="download-buttons">
+                <a href="#" onclick="button5()">
+                    <img class="download-button" width="150" height="80" src="img/button/portable.PNG" alt="Dec (Portable)">
+                    <br>
+                    <span>Dec (Portable)</span>
+                </a>
+                <br>
+                <a href="#" onclick="installer()">
+                    <img class="download-button" width="150" height="80" src="img/button/installer.PNG" alt="Dec (Installer)">
+                    <br>
+                    <span>Dec (Installer)</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Tomoya Koga</p>
+    </footer>
+    <script src="script/script.js?20230914" charset="UTF-8"></script>
 </center>
-<br>
-</font>
 </body>
 </html>
