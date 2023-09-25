@@ -9,6 +9,7 @@ img.twitter_button:active{
 	top: 3px;
 }
 body { 
+text-align: center;
 background: url(../img/Back.PNG);
 font-family: "MS Pゴシック",Meiryo; 
   }
